@@ -14,7 +14,6 @@ public class MatrixMultiplication {
 
         if (c1 != r2) {
             System.out.println("Matrix multiplication not possible");
-            return;
         }
 
         int[][] a = new int[r1][c1];
